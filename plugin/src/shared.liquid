@@ -1,0 +1,32 @@
+{% template main %}
+<script>var __no_reasons = {{ reasons | json }};</script>
+
+<div class="layout layout--col layout--align-center layout--justify-center">
+  <div class="no-reason value {% if view == 4 %}value--small lg:value--base{% elsif view >= 2 %}value--base lg:value--large{% else %}value--large lg:value--xlarge{% endif %} text--center"></div>
+</div>
+
+<div class="title_bar">
+  <svg class="image image--stroke w--8 h--8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="39" fill="white"/>
+    <circle cx="50" cy="50" r="44" fill="none" stroke="#f8654b" stroke-width="10"/>
+    <line x1="21" y1="21" x2="79" y2="79" stroke="#f8654b" stroke-width="10" stroke-linecap="round"/>
+  </svg>
+  <span class="title">{{ trmnl.plugin_settings.instance_name | default: "Daily Excuse" }}</span>
+  <span class="instance"></span>
+</div>
+
+<script>
+(function() {
+  var views = Array.from(document.querySelectorAll('.view'));
+  var script = document.currentScript;
+  var ancestor = views.find(function(v) { return v.contains(script); });
+  var idx = ancestor ? views.indexOf(ancestor) % 4 : 0;
+  var reasons = window.__no_reasons || [];
+  var reason = reasons[idx] || reasons[0] || {};
+  var noReason = ancestor ? ancestor.querySelector('.no-reason') : null;
+  var instance = ancestor ? ancestor.querySelector('.instance') : null;
+  if (noReason) noReason.textContent = reason.text || '';
+  if (instance && reason.index) instance.textContent = reason.index + ' of ' + reason.total;
+})();
+</script>
+{% endtemplate %}

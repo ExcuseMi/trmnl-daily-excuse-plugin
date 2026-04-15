@@ -1,0 +1,23 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: ''
+polling_verb: get
+framework_version: 2.3.7
+serverless_language: ''
+polling_url: https://raw.githubusercontent.com/hotheadhacker/no-as-a-service/refs/heads/main/reasons.json
+polling_headers: ''
+polling_body: ''
+id: 286320
+custom_fields:
+- keyname: author_info
+  field_type: author_bio
+  name: About This Plugin
+  description: <strong>A fresh excuse to say no, delivered daily.</strong><br /><br /> A fresh reason to say no, every refresh — courtesy of <a href="https://github.com/hotheadhacker/no-as-a-service">No as a Service</a>.<br /><br /> Works great in mashup mode — add up to 4 instances and each one shows a different excuse.
+  category: humor
+  github_url: https://github.com/ExcuseMi/trmnl-daily-excuse-plugin
+  learn_more_url: https://github.com/hotheadhacker/no-as-a-service
+  help_text: TRMNL X Ready
+name: Daily Excuse
+refresh_interval: 15
