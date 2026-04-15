@@ -11,7 +11,6 @@ variables:
       strategy: polling
       dark_mode: "no"
       no_screen_padding: "no"
-      custom_fields_values: {}
   reasons:
     - { text: "In a different season of life, I might say yes—but not right now.", index: 42, total: 1032 }
     - { text: "My future self wrote me a note: 'Please don't do this again.'", index: 187, total: 1032 }

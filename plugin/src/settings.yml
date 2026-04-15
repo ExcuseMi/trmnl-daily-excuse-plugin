@@ -14,7 +14,7 @@ custom_fields:
 - keyname: author_info
   field_type: author_bio
   name: About This Plugin
-  description: <strong>A fresh excuse to say no, delivered daily.</strong><br /><br /> A fresh reason to say no, every refresh — courtesy of <a href="https://github.com/hotheadhacker/no-as-a-service">No as a Service</a>.<br /><br /> Works great in mashup mode — add up to 4 instances and each one shows a different excuse.
+  description: Random excuses to say no, courtesy of <a href="https://github.com/hotheadhacker/no-as-a-service">No as a Service</a>.
   category: humor
   github_url: https://github.com/ExcuseMi/trmnl-daily-excuse-plugin
   learn_more_url: https://github.com/hotheadhacker/no-as-a-service
