@@ -5,14 +5,17 @@ Master the art of saying no — gracefully. A fresh reason to decline, every ref
 <!-- PLUGIN_STATS_START -->
 ## 🚀 TRMNL Plugin
 
-*Last updated: 2026-04-16 07:14:37 UTC*
+*Last updated: 2026-04-17 07:15:11 UTC*
 
 
-## 🔒 Plugin ID: 286320
+## <img src="assets/plugin-images/286320_icon.png" alt="Daily Excuse icon" width="32"/> [Daily Excuse](https://trmnl.com/recipes/286320)
 
-**Status**: ⏳ Not yet published on TRMNL or API unavailable
+![Installs](https://trmnl-badges.gohk.xyz/badge/installs?recipe=286320) ![Forks](https://trmnl-badges.gohk.xyz/badge/forks?recipe=286320)
 
-**Plugin URL**: https://trmnl.com/recipes/286320
+![Daily Excuse screenshot](assets/plugin-images/286320_screenshot.png)
+
+### Description
+Random excuses to say no, courtesy of <a href="https://github.com/hotheadhacker/no-as-a-service">No as a Service</a>.
 
 ---
 
