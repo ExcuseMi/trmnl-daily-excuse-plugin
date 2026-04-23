@@ -5,7 +5,7 @@ dark_mode: 'no'
 static_data: ''
 polling_verb: get
 framework_version: 2.3.7
-serverless_language: ''
+serverless_language: node
 polling_url: https://raw.githubusercontent.com/hotheadhacker/no-as-a-service/refs/heads/main/reasons.json
 polling_headers: ''
 polling_body: ''
@@ -20,4 +20,4 @@ custom_fields:
   learn_more_url: https://github.com/hotheadhacker/no-as-a-service
   help_text: TRMNL X Ready
 name: Daily Excuse
-refresh_interval: 15
+refresh_interval: 720
