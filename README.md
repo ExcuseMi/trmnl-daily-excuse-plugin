@@ -5,7 +5,7 @@ Master the art of saying no — gracefully. A fresh reason to decline, every ref
 <!-- PLUGIN_STATS_START -->
 ## 🚀 TRMNL Plugin
 
-*Last updated: 2026-08-31 11:53:26 UTC*
+*Last updated: 2026-09-01 10:33:04 UTC*
 
 
 ## <img src="assets/plugin-images/286320_icon.png" alt="Daily Excuse icon" width="32"/> [Daily Excuse](https://trmnl.com/recipes/286320)
